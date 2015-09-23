@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navbar toogle bottom</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <h3>Phone entire width, Desktops 1/2 width</h3>
+        <div class="row">
+            <div class="col-xs-12 col-md-6" style="background:lightblue;">Phone entire col-xs (1) , Desktop col-md 1/2</div>
+            <div class="col-xs-12 col-md-6" style="background:lightcoral;">Phone entire col-xs (1), Desktop col-md 1/2</div>
+            <div class="col-xs-12 col-md-6" style="background:#87e68f"> Phone entire col-xs (1), Desktop col-md 1/2</div>
+        </div>
+
+
+        <h3>Phone 1/2, Desktops 1/3 width</h3>
+        <div class="row">
+            <div class="col-xs-6 col-md-4" style="background:lightblue;">Phone entire col-xs 1/2, Desktop col-md 1/3</div>
+            <div class="col-xs-6 col-md-4" style="background:lightcoral;">Phone entire col-xs 1/2, Desktop col-md 1/3</div>
+            <div class="col-xs-6 col-md-4" style="background:lightgreen;">Phone entire col-xs 1/2, Desktop col-md 1/3</div>
+        </div>
+    </div>
+
+        <h3>Offsetting columns</h3>
+        <div class="row">
+            <div class="col-md-4" style="background:lightgreen;">4 wide</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2" style="background:green;">4 wide</div> <!-- move to columns over -->
+        </div>
+
+        <h3>Nesting Rows</h3>
+        <div class="row">
+            <div class="col-md-9" style="background:lightseagreen; padding:30px;">
+                Hey! How are things going this days ?
+                <div class="row">
+                    <div class="col-md-6" style="background:lightblue;">child 1</div>
+                    <div class="col-md-6"  style="background:lightsalmon;">child 2</div>
+
+                </div>
+            </div>
+        </div>
+</body>
+</html>
